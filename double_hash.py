@@ -155,4 +155,6 @@ class DoubleHashTable:
                 print("Hash Value:", i, "\t", self.table[i])
         print("count:", self.elementCount)
 
-do_hash_process(DoubleHashTable)
+
+if __name__ == '__main__':
+    do_hash_process(DoubleHashTable)

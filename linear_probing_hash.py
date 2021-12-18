@@ -48,5 +48,5 @@ class LinearProbingHash:
                 count += 1
         print("count:", count)
             
-
-do_hash_process(LinearProbingHash)
+if __name__ == '__main__':
+    do_hash_process(LinearProbingHash)

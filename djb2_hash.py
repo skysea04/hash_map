@@ -32,4 +32,5 @@ class HashTable:
         print("count:", count)
 
 
-do_hash_process(HashTable)
+if __name__ == '__main__':
+    do_hash_process(HashTable)
